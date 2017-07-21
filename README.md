@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FGeorgeWL%2FTrainingApp.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FGeorgeWL%2FTrainingApp?ref=badge_shield)
+
 TrainingApp
 ===========
 Runs on a LAMP (Linux Apache MySQL PHP) server with Grails installed. Though we believe that with some modifications of files it should work on alternative server stacks.
@@ -13,3 +15,7 @@ create database trainingapp default charset utf8;
 grant all on trainingapp.* to 'raven'@'localhost' identified by 'raven';
 
 The application will create tables and relationships when it is started. If you want to create your own db name then do so but you must modify conf/DataSource.groovy to reflect the changes.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FGeorgeWL%2FTrainingApp.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FGeorgeWL%2FTrainingApp?ref=badge_large)
